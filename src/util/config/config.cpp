@@ -839,7 +839,7 @@ namespace dxvk {
     { R"(\\generals\.exe$)" , {{
       { "d3d9.memoryTrackTest",             "True" },
       { "d3d9.textureMemory",               "2048" },
-      { "dxvk.hud",                     "compiler" },
+      { "dxvk.hud",         "fps,compiler,version" },
     }} },
 
     /**********************************************/
