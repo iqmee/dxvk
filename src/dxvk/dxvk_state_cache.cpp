@@ -841,7 +841,7 @@ namespace dxvk {
       path += '/';
     
     std::string exeName = env::getExeBaseName();
-    path += exeName + ".MW06-Anas";
+    path += exeName + ".game-cache";
     return str::topath(path.c_str());
   }
 
