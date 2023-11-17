@@ -838,8 +838,8 @@ namespace dxvk {
      * crash due to limited memory              */
     { R"(\\generals\.exe$)" , {{
       { "d3d9.memoryTrackTest",             "True" },
-      { "d3d9.textureMemory",               "2048" },
-      { "dxvk.hud",         "fps,compiler,version" },
+      { "d3d9.textureMemory",                  "0" },
+      { "dxvk.hud",                 "fps,compiler" },
     }} },
 
     /**********************************************/
