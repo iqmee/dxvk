@@ -91,7 +91,7 @@ namespace dxvk::hud {
     renderer.drawText(16.0f,
       { position.x, position.y },
       { 1.0f, 1.0f, 1.0f, 1.0f },
-      "DXVK " "v2.3 C&C Generals @Anas Aliraqi");
+      "DXVK " "v2.3 C&C Generals, RA3, C&C3 @Anas Aliraqi");
 
     position.y += 8.0f;
     return position;
