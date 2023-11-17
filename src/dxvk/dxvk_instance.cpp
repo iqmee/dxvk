@@ -18,7 +18,7 @@ namespace dxvk {
 
   DxvkInstance::DxvkInstance(const DxvkInstanceImportInfo& args, DxvkInstanceFlags flags) {
     Logger::info(str::format("Game: ", env::getExeName()));
-    Logger::info(str::format("DXVK: ", "v2.3 C&C Generals @Anas Aliraqi"));
+    Logger::info(str::format("DXVK: ", "v2.3 C&C Generals, RA3, C&C3 @Anas Aliraqi"));
 
     m_config = Config::getUserConfig();
     m_config.merge(Config::getAppConfig(env::getExePath()));
