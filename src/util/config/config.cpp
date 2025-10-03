@@ -1120,7 +1120,18 @@ namespace dxvk {
     /**********************************************/
     /* D3D8 GAMES                                 */
     /**********************************************/
-
+    /* Generals Zero Hour DXVK                    */
+    { R"(\\generals\.exe$)" , {{
+      { "dxvk.hud",                 "fps,compiler" },
+      { "d3d9.memoryTrackTest",             "True" },
+      { "d3d9.textureMemory",               "2048" },
+    }} },
+    /* Generals Zero Hour Steam DXVK              */
+    { R"(\\game\.dat$)" , {{
+      { "dxvk.hud",                 "fps,compiler" },
+      { "d3d9.memoryTrackTest",             "True" },
+      { "d3d9.textureMemory",               "2048" },
+    }} },
     /* Duke Nukem Forever (2001)                  */
     { R"(\\DukeForever\.exe$)", {{
       { "d3d9.maxFrameRate",                  "60" },
